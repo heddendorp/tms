@@ -1178,22 +1178,6 @@
     enhanced-resolve "5.6.0"
     webpack-sources "2.2.0"
 
-"@nguniversal/common@11.1.0":
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/@nguniversal/common/-/common-11.1.0.tgz#60f5f72476aef87d2c85e2c72225fef01867a49a"
-  integrity sha512-uBZvVycIZ6+Fs7O7Jk1E0R2kmQ3SeknpfemIboVj3w+vT08sWwTzhjCAYYAMUyZQLDEr+vDkRSoIgUmwoR8jsg==
-  dependencies:
-    critters "0.0.6"
-    tslib "^2.0.0"
-
-"@nguniversal/express-engine@^11.1.0":
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/@nguniversal/express-engine/-/express-engine-11.1.0.tgz#b914c658f0889426c903202892afe6ce2737c962"
-  integrity sha512-7VQgnDD0GB7cgsdhALuQ9wAXdCp234plosRu+eLVw/tsGKyqDhTOvMkCI5YAWNgT69m4Bopns4/NNT1j3cdfHQ==
-  dependencies:
-    "@nguniversal/common" "11.1.0"
-    tslib "^2.0.0"
-
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"
@@ -9756,9 +9740,9 @@ urix@^0.1.0:
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
 url-parse@^1.4.3, url-parse@^1.4.7:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.3.tgz#71c1303d38fb6639ade183c2992c8cc0686df862"
+  integrity sha512-IIORyIQD9rvj0A4CLWsHkBBJuNqWpFQe224b6j9t/ABmquIS0qDU2pY6kl6AuOrL5OkCXHMCFNe1jBcuAggjvQ==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
