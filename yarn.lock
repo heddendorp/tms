@@ -1178,22 +1178,6 @@
     enhanced-resolve "5.6.0"
     webpack-sources "2.2.0"
 
-"@nguniversal/common@11.1.0":
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/@nguniversal/common/-/common-11.1.0.tgz#60f5f72476aef87d2c85e2c72225fef01867a49a"
-  integrity sha512-uBZvVycIZ6+Fs7O7Jk1E0R2kmQ3SeknpfemIboVj3w+vT08sWwTzhjCAYYAMUyZQLDEr+vDkRSoIgUmwoR8jsg==
-  dependencies:
-    critters "0.0.6"
-    tslib "^2.0.0"
-
-"@nguniversal/express-engine@^11.1.0":
-  version "11.1.0"
-  resolved "https://registry.yarnpkg.com/@nguniversal/express-engine/-/express-engine-11.1.0.tgz#b914c658f0889426c903202892afe6ce2737c962"
-  integrity sha512-7VQgnDD0GB7cgsdhALuQ9wAXdCp234plosRu+eLVw/tsGKyqDhTOvMkCI5YAWNgT69m4Bopns4/NNT1j3cdfHQ==
-  dependencies:
-    "@nguniversal/common" "11.1.0"
-    tslib "^2.0.0"
-
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"
@@ -4463,9 +4447,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
-  integrity sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
+  version "1.14.7"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"
+  integrity sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==
 
 for-in@^1.0.2:
   version "1.0.2"
