@@ -1,14 +1,15 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
 /* You can add global styles to this file, and also import other style files */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .glass {
-  @apply bg-gray-800 bg-opacity-10 border border-gray-800 border-opacity-20;
+  @apply border border-gray-800 border-opacity-20 bg-gray-800 bg-opacity-10;
 }
 
 .panel {
-  @apply glass rounded-2xl overflow-hidden p-4;
+  @apply glass overflow-hidden rounded-2xl p-4;
   img.full {
   }
 }
