@@ -61,20 +61,32 @@
           <p class="mb-4">
             In 2019 I developed and launched the officially used app by TUM
             international. All events for foreign and local students are
-            organized in this app since 1.5 years.
+            organized in this app since then.
           </p>
           <ul class="list-inside list-disc">
-            <li>Used by over 3000 registered users</li>
-            <li>Already facilitated over 400 events</li>
-            <li>Over 1000 users per day during peak times</li>
+            <li>Used by over 3900 registered users</li>
+            <li>Already facilitated over 520 events</li>
+            <li>Over 1500 users per day during peak times</li>
           </ul>
-          <div fxLayout="row" fxLayoutGap="1rem" class="my-4">
+          <div
+            fxLayout.gt-sm="row"
+            fxLayout="column"
+            fxLayoutGap="1rem"
+            class="my-4"
+          >
             <a
               href="https://github.com/heddendorp/tumi"
               target="_blank"
               class="cursor-pointer rounded border-2 border-gray-100 bg-gray-100 bg-opacity-10 px-4 py-2 text-lg hover:bg-opacity-20"
             >
               See on github
+            </a>
+            <a
+              href="https://simpleanalytics.com/tumi.esn.world"
+              target="_blank"
+              class="cursor-pointer rounded border-2 border-gray-100 bg-gray-100 bg-opacity-10 px-4 py-2 text-lg hover:bg-opacity-20"
+            >
+              Look at the analytics
             </a>
             <a
               href="https://tumi.esn.world/"
@@ -114,7 +126,12 @@
             <li>Also includes a tutorial for new users</li>
             <li>Allows spontaneous voting on unforeseen topics</li>
           </ul>
-          <div fxLayout="row" fxLayoutGap="1rem" class="my-4">
+          <div
+            fxLayout.gt-sm="row"
+            fxLayout="column"
+            fxLayoutGap="1rem"
+            class="my-4"
+          >
             <a
               href="https://github.com/heddendorp/esn-speakers-list"
               target="_blank"
@@ -173,13 +190,62 @@
           <img [src]="'filled-chat' | iconUrl" alt="Filled Chart" />
           <p class="text-xl">
             Spent two years at a startup working on new technology for a social
-            platform
+            platform <br />
+            <a href="https://www.flipapp.de/" target="_blank" class="font-bold">
+              ➡️ <span class="underline">Check out Flip</span>
+            </a>
           </p>
           <img [src]="'carpool' | iconUrl" alt="Carpool Icon" />
           <p class="text-xl">
-            Currently doing an IDP at ridebee, another TUM startup
+            Worked at the TUM startup RideBee as a developer during my IDP
+            <br />
+            <a href="https://ridebee.de" target="_blank" class="font-bold">
+              ➡️ <span class="underline">Check out RideBee</span>
+            </a>
           </p>
         </div>
+      </div>
+    </div>
+    <div
+      class="my-4 rounded-2xl bg-gradient-to-t from-pink-900 to-pink-700 p-6 text-white"
+    >
+      <h3 class="text-2xl font-black text-pink-200 md:text-4xl">
+        Links for stalkers 🕵🏻‍♂️
+      </h3>
+      <div
+        fxLayout.gt-sm="row"
+        fxLayout="column"
+        fxLayoutGap="1rem"
+        class="my-4"
+      >
+        <a
+          href="https://github.com/heddendorp"
+          target="_blank"
+          class="cursor-pointer rounded border-2 border-gray-100 bg-gray-100 bg-opacity-10 px-4 py-2 text-lg hover:bg-opacity-20"
+        >
+          My github profile
+        </a>
+        <a
+          href="https://linkedin.com/in/heddendorp"
+          target="_blank"
+          class="cursor-pointer rounded border-2 border-gray-100 bg-gray-100 bg-opacity-10 px-4 py-2 text-lg hover:bg-opacity-20"
+        >
+          My LinkedIn Profile
+        </a>
+        <a
+          href="https://docs.google.com/document/d/e/2PACX-1vRUTCF81RMPd5MMih_JeLD-pyTZ44kg-m9Mpk6ODCOymJw5dDTN3kSfaD8_C1mJolCv_s8aMDjWQfKD/pub"
+          target="_blank"
+          class="cursor-pointer rounded border-2 border-gray-100 bg-gray-100 bg-opacity-10 px-4 py-2 text-lg hover:bg-opacity-20"
+        >
+          My CV
+        </a>
+        <a
+          href="https://github.com/heddendorp/tms"
+          target="_blank"
+          class="cursor-pointer rounded border-2 border-gray-100 bg-gray-100 bg-opacity-10 px-4 py-2 text-lg hover:bg-opacity-20"
+        >
+          Code for this app
+        </a>
       </div>
     </div>
   </div>
