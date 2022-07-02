@@ -70,7 +70,7 @@
           </ul>
           <div fxLayout="row" fxLayoutGap="1rem" class="my-4">
             <a
-              href="https://github.com/heddendorp/tumi-app"
+              href="https://github.com/heddendorp/tumi"
               target="_blank"
               class="cursor-pointer rounded border-2 border-gray-100 bg-gray-100 bg-opacity-10 px-4 py-2 text-lg hover:bg-opacity-20"
             >
@@ -147,20 +147,16 @@
           gdGap="1rem"
           gdAlignColumns="start center"
         >
-          <img
-            src="https://img.icons8.com/fluent/48/000000/minecraft-creeper.png"
-          />
+          <img [src]="'minecraft-creeper' | iconUrl" alt="Minecraft Creeper" />
           <p class="text-xl">
             Started coding before 11th grade during a heavy minecraft phase
           </p>
-          <img src="https://img.icons8.com/fluent/48/000000/design.png" />
+          <img [src]="'design' | iconUrl" alt="Design Icon" />
           <p class="text-xl">Worked in a design agency for some time</p>
-          <img
-            src="https://img.icons8.com/fluent/48/000000/integrated-circuit.png"
-          />
+          <img [src]="'integrated-circuit' | iconUrl" alt="Circuit board" />
           <p class="text-xl">Bachelor's thesis about embedded programming</p>
 
-          <img src="https://img.icons8.com/fluent/48/000000/new-company.png" />
+          <img [src]="'new-company' | iconUrl" alt="Company Building" />
           <p class="text-xl">
             Currently working as a software engineer at the TUM startup celonis
           </p>
@@ -174,12 +170,12 @@
           gdGap="1rem"
           gdAlignColumns="start center"
         >
-          <img src="https://img.icons8.com/fluent/48/000000/filled-chat.png" />
+          <img [src]="'filled-chat' | iconUrl" alt="Filled Chart" />
           <p class="text-xl">
             Spent two years at a startup working on new technology for a social
             platform
           </p>
-          <img src="https://img.icons8.com/fluent/48/000000/carpool.png" />
+          <img [src]="'carpool' | iconUrl" alt="Carpool Icon" />
           <p class="text-xl">
             Currently doing an IDP at ridebee, another TUM startup
           </p>
